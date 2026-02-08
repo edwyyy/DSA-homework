@@ -1,4 +1,4 @@
-//Basic input and output in C++
+// This program demonstrates basic input and output in C++ using the iostream library.
 
 #include <iostream>
 using namespace std;
