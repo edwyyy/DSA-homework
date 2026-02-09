@@ -14,7 +14,7 @@ using namespace std;
 
     }
     return max; //returning the max value from array
-5
+
 
 }
 
