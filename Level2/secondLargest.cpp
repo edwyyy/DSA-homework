@@ -40,3 +40,8 @@ int main() {
     cout << "The second largest element in the array is: " << findSecondLargest(n, arr) << endl;
     return 0;
 }
+
+//time complexity:
+//best/worst/average: O(n) [we traverse the array once to find the second largest element]
+//space complexity: O(1) [we use only a constant amount of extra space to store max and second_max]
+
