@@ -8,6 +8,9 @@
   Loop until low == high, which will be the peak index.
 */
 
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& arr) {
