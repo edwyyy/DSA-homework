@@ -1,3 +1,5 @@
+/* https://leetcode.com/problems/move-zeroes/description/ */
+
 #include <bits/stdc++.h>
 using namespace std;    
 
@@ -46,3 +48,6 @@ int main() {
     cout << endl;
     return 0;
 }
+
+//time complexity: O(n)
+//space complexity: O(1)
