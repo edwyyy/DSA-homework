@@ -9,7 +9,7 @@ public:
         int j = -1;
         int n = a.size();
 
-        // find first zero
+        // Find first zero position
         for (int i = 0; i < n; i++) {
             if (a[i] == 0) {
                 j = i;
@@ -18,8 +18,9 @@ public:
         }
 
         if (j == -1)
-            return; // no zero found
+            return; // No zero found, array already valid
 
+        // Swap non-zero elements with zero position, moving zeros to end
         for (int i = j + 1; i < n; i++) {
             if (a[i] != 0) {
                 swap(a[i], a[j]);
@@ -32,6 +33,7 @@ public:
 int main() {
     Solution sol;
     int n;
+    // Input array elements
     cout << "Enter the number of elements: ";
     cin >> n;
     int a[n];
